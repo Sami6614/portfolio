@@ -1,0 +1,38 @@
+#hiring{
+    margin: 150px 25px 25px 50px;
+}
+#hiring input{
+    margin: 20px 20px 20px 0;
+    color: white;
+}
+label{
+    margin: 30px 30px 30px 0;
+    color: white;
+}
+select{
+    width: 90%;
+    padding: 10px;
+    color: white;
+    margin: 20px 20px 20px 0;
+    background: #373636;
+    border: none;
+}
+select:hover{
+    box-shadow: 4px 4px 4px #00e6fe;
+}
+option:hover{
+    background: #00e6fe;
+}
+.btn-center{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+.btn-center button{
+    color: #00e6fe;
+    font-size: 18px;
+    width: 10rem;
+}
+button:hover{
+    color: white;
+}

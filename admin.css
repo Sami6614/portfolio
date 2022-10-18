@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #1a191e;
+    box-sizing: border-box;
+}
+.container{
+    width:max-content;
+}
+.login-bg{
+    padding: 50px;
+    background: -webkit-linear-gradient(0deg, #00e6fe 0%, #09bfcc 100%);
+    box-shadow: 4px 4px 16px #00e6fe;
+    transform: translate(5%,25%);
+    border-radius: 10px;
+}
+.login-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+img{
+    height: 4rem;
+    width: 8rem;
+    border-radius: 10rem;
+    margin-bottom: 40px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%{
+        /* top:100px; bottom:30px; */
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateZ(30px);
+    }
+}
+input,button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    caret-color: #00e6fe;
+    background-color: #373636;
+    color: #fff;
+}
+button:hover{
+    color: #00e6fe;
+  
+}
+a{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #373636;
+    color: #fff;
+    margin-left: 10px;
+}
+a:hover{
+    color: #00e6fe;
+}
+::placeholder{
+    color: #fff;
+}

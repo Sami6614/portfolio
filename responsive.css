@@ -1,0 +1,85 @@
+/* @media screen and (max-width:767px) {
+    #header{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    #header{
+        display: block;
+    }
+} */
+@media screen and (min-width:768px) {
+    #mobile-header{
+        display: none;
+    }
+}
+@media screen and (max-width:767px) {
+    #mobile-header{
+        display: none;
+    }
+}
+@media screen and (max-width:767px) {
+    .pt-70{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:767px) {
+    .p-15{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:767px) {
+.sticky+#home {
+    padding-top: 10px;
+}
+}
+@media screen and (max-width:767px) {
+    .profile{
+        /* margin-left: 0; */
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:992px) {
+    .m-padding{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .m-padding{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .our-skills{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .pt-20{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:992px) {
+    .bg-project{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    #about img{
+        width: 100%;
+        height: 40vh;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width:768px) {
+    #about a{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px) {
+    #blog img{
+        width: 100%;
+    }
+}
